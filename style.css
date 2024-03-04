@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.intro, .name, .info {
+    margin: 0.2em 0;
+}
+
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 245, 251);
+}
+
+.intro {
+    font-size: 1.6em;
+}
+
+.name {
+    font-size: 4em;
+    color: rgb(71, 125, 158);
+    font-weight: bold;
+}
+
+.info {
+    margin-top: 0.5em;
+    font-size: 1.1em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 0.1em 0;
+}
